@@ -18,6 +18,8 @@
 		E2021D392141353B0063487F /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D382141353B0063487F /* ColorsTests.swift */; };
 		E2021D442141353B0063487F /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D432141353B0063487F /* ColorsUITests.swift */; };
 		E2F04B1421439C50004581B5 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B1321439C50004581B5 /* TriangleView.swift */; };
+		E2F04B182143AE9D004581B5 /* PairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B172143AE9D004581B5 /* PairingViewController.swift */; };
+		E2F04B1A2143B937004581B5 /* CircleLEDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B192143B937004581B5 /* CircleLEDView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +62,8 @@
 		E2021D432141353B0063487F /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		E2021D452141353B0063487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2F04B1321439C50004581B5 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
+		E2F04B172143AE9D004581B5 /* PairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingViewController.swift; sourceTree = "<group>"; };
+		E2F04B192143B937004581B5 /* CircleLEDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLEDView.swift; sourceTree = "<group>"; };
 		F69B3F6BF342CFA0F175E904 /* Pods-ColorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorsUITests/Pods-ColorsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -146,6 +150,8 @@
 				E2021D2C2141353B0063487F /* LaunchScreen.storyboard */,
 				E2021D2F2141353B0063487F /* Info.plist */,
 				E2F04B1321439C50004581B5 /* TriangleView.swift */,
+				E2F04B172143AE9D004581B5 /* PairingViewController.swift */,
+				E2F04B192143B937004581B5 /* CircleLEDView.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -241,6 +247,11 @@
 					E2021D1F214135390063487F = {
 						CreatedOnToolsVersion = 9.4.1;
 						LastSwiftMigration = 1000;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+						};
 					};
 					E2021D332141353B0063487F = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -385,9 +396,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E2F04B1A2143B937004581B5 /* CircleLEDView.swift in Sources */,
 				E2021D262141353A0063487F /* ViewController.swift in Sources */,
 				E2F04B1421439C50004581B5 /* TriangleView.swift in Sources */,
 				E2021D242141353A0063487F /* AppDelegate.swift in Sources */,
+				E2F04B182143AE9D004581B5 /* PairingViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

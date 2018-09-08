@@ -6,11 +6,11 @@
 //  Copyright © 2018 C4nvas. All rights reserved.
 //
 
-import Foundation
 import UIKit
+import CoreGraphics
 
-class TriangleView : UIView {
-    
+
+class TriangleView: UIView {
     override init(frame: CGRect) {
         super.init(frame: frame)
     }
@@ -20,16 +20,27 @@ class TriangleView : UIView {
     }
     
     override func draw(_ rect: CGRect) {
-        guard let context = UIGraphicsGetCurrentContext() else { return }
+        let path = UIBezierPath()
+        let gradientMask = CAShapeLayer()
+        let gradientLayer = CAGradientLayer()
         
-        context.beginPath()
-        context.move(to: CGPoint(x: rect.minX, y: rect.minY))
-        context.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY - 40))
-        context.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
-        context.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
-        context.closePath()
+        path.move(to: CGPoint(x: rect.minX, y: rect.minY))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY - 40))
+        path.addLine(to: CGPoint(x: rect.maxX, y: rect.maxY))
+        path.addLine(to: CGPoint(x: rect.minX, y: rect.maxY))
+        path.close()
         
-        context.setFillColor(red: 0.05, green: 0.87, blue: 0.49, alpha: 1)
-        context.fillPath()
+        gradientMask.frame = rect
+        gradientMask.path = path.cgPath
+        
+        gradientLayer.startPoint = CGPoint(x: 0.0, y: 0.5)
+        gradientLayer.endPoint = CGPoint(x: 1.0, y: 0.5)
+        gradientLayer.colors = [
+            UIColor(red:0.37, green:0.82, blue:0.72, alpha:1.0).cgColor,
+            UIColor(red:0.05, green:0.87, blue:0.50, alpha:1.0).cgColor ]
+        gradientLayer.frame = rect
+        gradientLayer.mask = gradientMask
+        
+        self.layer.addSublayer(gradientLayer)
     }
 }
