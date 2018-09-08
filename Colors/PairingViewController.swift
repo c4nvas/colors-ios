@@ -68,10 +68,10 @@ class PairingViewController: UIViewController, UITableViewDataSource, CBCentralM
     func centralManager(_ central: CBCentralManager, didDiscover peripheral: CBPeripheral, advertisementData: [String : Any], rssi RSSI: NSNumber) {
         if(!titles.contains(peripheral.name ?? "Unknown Device")) {
             titles.append(peripheral.name ?? "Unknown Device")
+            
+            let selectedIndex = bledevicesTableView.indexPathForSelectedRow
+            bledevicesTableView.reloadData()
+            bledevicesTableView.selectRow(at: selectedIndex, animated: true, scrollPosition: .none)
         }
-        
-        let selectedIndex = bledevicesTableView.indexPathForSelectedRow
-        bledevicesTableView.reloadData()
-        bledevicesTableView.selectRow(at: selectedIndex, animated: true, scrollPosition: .none)
     }
 }
