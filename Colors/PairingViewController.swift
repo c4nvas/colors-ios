@@ -35,10 +35,6 @@ class PairingViewController: UIViewController, UITableViewDataSource, CBCentralM
         centralManager = CBCentralManager(delegate: self, queue: nil)
     }
     
-    @IBAction func backAction(_ sender: Any) {
-        self.dismiss(animated: true)
-    }
-    
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         return titles.count
     }

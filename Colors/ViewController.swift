@@ -18,5 +18,9 @@ class ViewController: UIViewController {
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
+    
+    @IBAction func returnFromSegueAction(segue: UIStoryboardSegue) {
+        
+    }
 }
 

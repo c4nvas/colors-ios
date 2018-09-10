@@ -17,6 +17,9 @@
 		E2021D2E2141353B0063487F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2021D2C2141353B0063487F /* LaunchScreen.storyboard */; };
 		E2021D392141353B0063487F /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D382141353B0063487F /* ColorsTests.swift */; };
 		E2021D442141353B0063487F /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D432141353B0063487F /* ColorsUITests.swift */; };
+		E20D909E214422F000B08587 /* PairingProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D909D214422F000B08587 /* PairingProcessViewController.swift */; };
+		E2D1BDC32145F0C90007A171 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1BDC22145F0C90007A171 /* SegueFromRight.swift */; };
+		E2D1BDC52145F25D0007A171 /* SegueToRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1BDC42145F25D0007A171 /* SegueToRight.swift */; };
 		E2F04B1421439C50004581B5 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B1321439C50004581B5 /* TriangleView.swift */; };
 		E2F04B182143AE9D004581B5 /* PairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B172143AE9D004581B5 /* PairingViewController.swift */; };
 		E2F04B1A2143B937004581B5 /* CircleLEDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B192143B937004581B5 /* CircleLEDView.swift */; };
@@ -61,6 +64,9 @@
 		E2021D3F2141353B0063487F /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2021D432141353B0063487F /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		E2021D452141353B0063487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E20D909D214422F000B08587 /* PairingProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingProcessViewController.swift; sourceTree = "<group>"; };
+		E2D1BDC22145F0C90007A171 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
+		E2D1BDC42145F25D0007A171 /* SegueToRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToRight.swift; sourceTree = "<group>"; };
 		E2F04B1321439C50004581B5 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
 		E2F04B172143AE9D004581B5 /* PairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingViewController.swift; sourceTree = "<group>"; };
 		E2F04B192143B937004581B5 /* CircleLEDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLEDView.swift; sourceTree = "<group>"; };
@@ -152,6 +158,9 @@
 				E2F04B1321439C50004581B5 /* TriangleView.swift */,
 				E2F04B172143AE9D004581B5 /* PairingViewController.swift */,
 				E2F04B192143B937004581B5 /* CircleLEDView.swift */,
+				E20D909D214422F000B08587 /* PairingProcessViewController.swift */,
+				E2D1BDC22145F0C90007A171 /* SegueFromRight.swift */,
+				E2D1BDC42145F25D0007A171 /* SegueToRight.swift */,
 			);
 			path = Colors;
 			sourceTree = "<group>";
@@ -323,12 +332,16 @@
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -398,9 +411,12 @@
 			files = (
 				E2F04B1A2143B937004581B5 /* CircleLEDView.swift in Sources */,
 				E2021D262141353A0063487F /* ViewController.swift in Sources */,
+				E2D1BDC32145F0C90007A171 /* SegueFromRight.swift in Sources */,
 				E2F04B1421439C50004581B5 /* TriangleView.swift in Sources */,
 				E2021D242141353A0063487F /* AppDelegate.swift in Sources */,
 				E2F04B182143AE9D004581B5 /* PairingViewController.swift in Sources */,
+				E20D909E214422F000B08587 /* PairingProcessViewController.swift in Sources */,
+				E2D1BDC52145F25D0007A171 /* SegueToRight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
