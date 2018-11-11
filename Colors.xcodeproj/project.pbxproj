@@ -11,17 +11,17 @@
 		ADB717F7A356BE5F9151D66F /* Pods_Colors.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CC152A4967C372F8408F08C /* Pods_Colors.framework */; };
 		BB0FA2BB8C1DE1BFBB479FA5 /* Pods_ColorsUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0447A589AFAAE67F0C1855FF /* Pods_ColorsUITests.framework */; };
 		E2021D242141353A0063487F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D232141353A0063487F /* AppDelegate.swift */; };
-		E2021D262141353A0063487F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D252141353A0063487F /* ViewController.swift */; };
+		E2021D262141353A0063487F /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D252141353A0063487F /* WelcomeViewController.swift */; };
 		E2021D292141353A0063487F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2021D272141353A0063487F /* Main.storyboard */; };
 		E2021D2B2141353B0063487F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2021D2A2141353B0063487F /* Assets.xcassets */; };
 		E2021D2E2141353B0063487F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E2021D2C2141353B0063487F /* LaunchScreen.storyboard */; };
 		E2021D392141353B0063487F /* ColorsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D382141353B0063487F /* ColorsTests.swift */; };
 		E2021D442141353B0063487F /* ColorsUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2021D432141353B0063487F /* ColorsUITests.swift */; };
-		E20D909E214422F000B08587 /* PairingProcessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D909D214422F000B08587 /* PairingProcessViewController.swift */; };
+		E20D909E214422F000B08587 /* WiFiPairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E20D909D214422F000B08587 /* WiFiPairingViewController.swift */; };
 		E2D1BDC32145F0C90007A171 /* SegueFromRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1BDC22145F0C90007A171 /* SegueFromRight.swift */; };
 		E2D1BDC52145F25D0007A171 /* SegueToRight.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2D1BDC42145F25D0007A171 /* SegueToRight.swift */; };
 		E2F04B1421439C50004581B5 /* TriangleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B1321439C50004581B5 /* TriangleView.swift */; };
-		E2F04B182143AE9D004581B5 /* PairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B172143AE9D004581B5 /* PairingViewController.swift */; };
+		E2F04B182143AE9D004581B5 /* BlePairingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B172143AE9D004581B5 /* BlePairingViewController.swift */; };
 		E2F04B1A2143B937004581B5 /* CircleLEDView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E2F04B192143B937004581B5 /* CircleLEDView.swift */; };
 /* End PBXBuildFile section */
 
@@ -53,7 +53,7 @@
 		D1DCB5CC6FDDF9CB9ED49484 /* Pods-ColorsUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorsUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ColorsUITests/Pods-ColorsUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E2021D20214135390063487F /* Colors.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Colors.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2021D232141353A0063487F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E2021D252141353A0063487F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E2021D252141353A0063487F /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		E2021D282141353A0063487F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E2021D2A2141353B0063487F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E2021D2D2141353B0063487F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -64,11 +64,11 @@
 		E2021D3F2141353B0063487F /* ColorsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColorsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E2021D432141353B0063487F /* ColorsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsUITests.swift; sourceTree = "<group>"; };
 		E2021D452141353B0063487F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E20D909D214422F000B08587 /* PairingProcessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingProcessViewController.swift; sourceTree = "<group>"; };
+		E20D909D214422F000B08587 /* WiFiPairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WiFiPairingViewController.swift; sourceTree = "<group>"; };
 		E2D1BDC22145F0C90007A171 /* SegueFromRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueFromRight.swift; sourceTree = "<group>"; };
 		E2D1BDC42145F25D0007A171 /* SegueToRight.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SegueToRight.swift; sourceTree = "<group>"; };
 		E2F04B1321439C50004581B5 /* TriangleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriangleView.swift; sourceTree = "<group>"; };
-		E2F04B172143AE9D004581B5 /* PairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PairingViewController.swift; sourceTree = "<group>"; };
+		E2F04B172143AE9D004581B5 /* BlePairingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlePairingViewController.swift; sourceTree = "<group>"; };
 		E2F04B192143B937004581B5 /* CircleLEDView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleLEDView.swift; sourceTree = "<group>"; };
 		F69B3F6BF342CFA0F175E904 /* Pods-ColorsUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ColorsUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ColorsUITests/Pods-ColorsUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -149,16 +149,12 @@
 		E2021D22214135390063487F /* Colors */ = {
 			isa = PBXGroup;
 			children = (
-				E2021D232141353A0063487F /* AppDelegate.swift */,
-				E2021D252141353A0063487F /* ViewController.swift */,
-				E2021D272141353A0063487F /* Main.storyboard */,
-				E2021D2A2141353B0063487F /* Assets.xcassets */,
-				E2021D2C2141353B0063487F /* LaunchScreen.storyboard */,
 				E2021D2F2141353B0063487F /* Info.plist */,
-				E2F04B1321439C50004581B5 /* TriangleView.swift */,
-				E2F04B172143AE9D004581B5 /* PairingViewController.swift */,
-				E2F04B192143B937004581B5 /* CircleLEDView.swift */,
-				E20D909D214422F000B08587 /* PairingProcessViewController.swift */,
+				E2021D2A2141353B0063487F /* Assets.xcassets */,
+				E23A230E2167071F00B49D52 /* ViewController */,
+				E23A230D2167070400B49D52 /* View */,
+				E23A23112167077E00B49D52 /* Storyboard */,
+				E2021D232141353A0063487F /* AppDelegate.swift */,
 				E2D1BDC22145F0C90007A171 /* SegueFromRight.swift */,
 				E2D1BDC42145F25D0007A171 /* SegueToRight.swift */,
 			);
@@ -181,6 +177,34 @@
 				E2021D452141353B0063487F /* Info.plist */,
 			);
 			path = ColorsUITests;
+			sourceTree = "<group>";
+		};
+		E23A230D2167070400B49D52 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E2F04B192143B937004581B5 /* CircleLEDView.swift */,
+				E2F04B1321439C50004581B5 /* TriangleView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E23A230E2167071F00B49D52 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E2021D252141353A0063487F /* WelcomeViewController.swift */,
+				E2F04B172143AE9D004581B5 /* BlePairingViewController.swift */,
+				E20D909D214422F000B08587 /* WiFiPairingViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		E23A23112167077E00B49D52 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				E2021D272141353A0063487F /* Main.storyboard */,
+				E2021D2C2141353B0063487F /* LaunchScreen.storyboard */,
+			);
+			path = Storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -331,7 +355,9 @@
 				"${SRCROOT}/Pods/Target Support Files/Pods-Colors/Pods-Colors-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
 				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
 				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
 				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
 			);
@@ -339,7 +365,9 @@
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
 			);
@@ -410,12 +438,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				E2F04B1A2143B937004581B5 /* CircleLEDView.swift in Sources */,
-				E2021D262141353A0063487F /* ViewController.swift in Sources */,
+				E2021D262141353A0063487F /* WelcomeViewController.swift in Sources */,
 				E2D1BDC32145F0C90007A171 /* SegueFromRight.swift in Sources */,
 				E2F04B1421439C50004581B5 /* TriangleView.swift in Sources */,
 				E2021D242141353A0063487F /* AppDelegate.swift in Sources */,
-				E2F04B182143AE9D004581B5 /* PairingViewController.swift in Sources */,
-				E20D909E214422F000B08587 /* PairingProcessViewController.swift in Sources */,
+				E2F04B182143AE9D004581B5 /* BlePairingViewController.swift in Sources */,
+				E20D909E214422F000B08587 /* WiFiPairingViewController.swift in Sources */,
 				E2D1BDC52145F25D0007A171 /* SegueToRight.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
