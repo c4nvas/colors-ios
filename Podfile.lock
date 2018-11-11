@@ -1,0 +1,100 @@
+PODS:
+  - Material (2.16.4):
+    - Material/Core (= 2.16.4)
+  - Material/Core (2.16.4):
+    - Motion (~> 1.4.3)
+  - MaterialComponents/ActivityIndicator (68.1.0):
+    - MaterialComponents/Palettes
+    - MaterialComponents/private/Application
+    - MDFInternationalization
+    - MotionAnimator (~> 2.0)
+  - MaterialComponents/BottomSheet (68.1.0):
+    - MaterialComponents/private/KeyboardWatcher
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/Buttons (68.1.0):
+    - MaterialComponents/Ink
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+    - MaterialComponents/ShadowElevations
+    - MaterialComponents/ShadowLayer
+    - MaterialComponents/Typography
+    - MDFInternationalization
+    - MDFTextAccessibility
+  - "MaterialComponents/Buttons+ButtonThemer (68.1.0)":
+    - MaterialComponents/Buttons
+    - "MaterialComponents/Buttons+ColorThemer"
+    - "MaterialComponents/Buttons+ShapeThemer"
+    - "MaterialComponents/Buttons+TypographyThemer"
+  - "MaterialComponents/Buttons+ColorThemer (68.1.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Color
+  - "MaterialComponents/Buttons+ShapeThemer (68.1.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Shape
+  - "MaterialComponents/Buttons+TypographyThemer (68.1.0)":
+    - MaterialComponents/Buttons
+    - MaterialComponents/schemes/Typography
+  - MaterialComponents/Ink (68.1.0):
+    - MaterialComponents/private/Math
+  - MaterialComponents/Palettes (68.1.0)
+  - MaterialComponents/private/Application (68.1.0)
+  - MaterialComponents/private/KeyboardWatcher (68.1.0):
+    - MaterialComponents/private/Application
+  - MaterialComponents/private/Math (68.1.0)
+  - MaterialComponents/private/ShapeLibrary (68.1.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/private/Shapes (68.1.0):
+    - MaterialComponents/private/Math
+    - MaterialComponents/ShadowLayer
+  - MaterialComponents/schemes/Color (68.1.0)
+  - MaterialComponents/schemes/Shape (68.1.0):
+    - MaterialComponents/private/ShapeLibrary
+    - MaterialComponents/private/Shapes
+  - MaterialComponents/schemes/Typography (68.1.0)
+  - MaterialComponents/ShadowElevations (68.1.0)
+  - MaterialComponents/ShadowLayer (68.1.0):
+    - MaterialComponents/ShadowElevations
+  - MaterialComponents/Typography (68.1.0):
+    - MaterialComponents/private/Application
+    - MaterialComponents/private/Math
+  - MDFInternationalization (1.1.0)
+  - MDFTextAccessibility (1.2.0)
+  - Motion (1.4.3):
+    - Motion/Core (= 1.4.3)
+  - Motion/Core (1.4.3)
+  - MotionAnimator (2.8.1):
+    - MotionInterchange (~> 1.6)
+  - MotionInterchange (1.6.0)
+
+DEPENDENCIES:
+  - Material (~> 2.16)
+  - MaterialComponents/ActivityIndicator
+  - MaterialComponents/BottomSheet
+  - MaterialComponents/Buttons
+  - "MaterialComponents/Buttons+ButtonThemer"
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Material
+    - MaterialComponents
+    - MDFInternationalization
+    - MDFTextAccessibility
+    - Motion
+    - MotionAnimator
+    - MotionInterchange
+
+SPEC CHECKSUMS:
+  Material: 4ed78690b09ffd148b5ffab6b4367fb1d8da1cd3
+  MaterialComponents: 9090ac82784a9c031ff62a44d3d9880143029d63
+  MDFInternationalization: b5b8626628abf026e630e5ebaeee563037712cbb
+  MDFTextAccessibility: 94098925e0853551c5a311ce7c1ecefbe297cdb6
+  Motion: 153ba49692997888556c7a95207278a8b1f8be95
+  MotionAnimator: ee16aa30567c5bae0fb2750c132915829cfaaf8a
+  MotionInterchange: ead0e3ae1f3a5fb539e289debbc7ae036160a10d
+
+PODFILE CHECKSUM: 73ccf9cedb107670f650de20593a394729611a95
+
+COCOAPODS: 1.5.3
